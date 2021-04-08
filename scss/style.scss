@@ -1,0 +1,199 @@
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
+
+// cextion mods
+
+.persone {
+  margin-bottom: 20px;
+  &__image {
+    max-width: 290px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 0px 1px #000000;
+    border-radius: 50%;
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+}
+
+.persone-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  span {
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+}
+
+//contacts
+.section {
+  margin-bottom: 20px;
+  &__header {
+    display: flex;
+    max-width: 290px;
+    margin-bottom: 10px;
+  }
+  &__header-icon {
+    height: 30px;
+    width: 31px;
+    background-image: url("../images/icons/contacts.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+  }
+  &__header-title {
+    font-size: 15px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+    width: 260px;
+  }
+}
+.body {
+  &__list-item {
+    padding-left: 40px;
+    height: 30px;
+    &:last-child {
+      margin-bottom: 0px;
+    }
+    &:nth-child(1) {
+      background-image: url("../images/icons/phone.svg");
+      background-repeat: no-repeat;
+      background-size: 15px 15px;
+      background-position: 10px 2px;
+    }
+    &:nth-child(2) {
+      background-image: url("../images/icons/email.svg");
+      background-repeat: no-repeat;
+      background-size: 15px 15px;
+      background-position: 10px 2px;
+    }
+    &:nth-child(3) {
+      background-image: url("../images/icons/location.svg");
+      background-repeat: no-repeat;
+      background-size: 15px 15px;
+      background-position: 10px 2px;
+    }
+    &:nth-child(4) {
+      background-image: url("../images/icons/linkedin.svg");
+      background-repeat: no-repeat;
+      background-size: 15px 15px;
+      background-position: 10px 2px;
+    }
+    &:nth-child(5) {
+      background-image: url("../images/icons/github.svg");
+      background-repeat: no-repeat;
+      background-size: 15px 15px;
+      background-position: 10px 2px;
+    }
+  }
+}
+
+//position
+.position {
+  margin-bottom: 20px;
+
+  .section__header-icon {
+    background-image: url("../images/icons/position.svg");
+  }
+  .content {
+    .body__text {
+      padding-left: 40px;
+    }
+  }
+}
+
+// Skills
+.skills {
+  .section__header-icon {
+    background-image: url("../images/icons/skills.svg");
+  }
+  .skill-list {
+    text-transform: uppercase;
+    &__item {
+      padding-left: 40px;
+      margin-bottom: 10px;
+      background-image: url("../images/icons/check.svg");
+      background-repeat: no-repeat;
+      background-size: 15px 15px;
+      background-position: 10px 0;
+    }
+  }
+}
+
+// languages
+.languages {
+  .section__header-icon {
+    background-image: url("../images/icons/languages.svg");
+  }
+  .languages-list {
+    &__item {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// Education
+.education {
+  .section__header-icon {
+    background-image: url("../images/icons/education.svg");
+  }
+}
+.education-list {
+  &__item {
+    margin-bottom: 15px;
+    span {
+      font-weight: 900;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+}
+
+// Self-education
+.self-education {
+  .section__header-icon {
+    background-image: url("../images/icons/self-education.svg");
+  }
+
+  .self-education-list__item {
+    margin-bottom: 10px;
+    span {
+      display: block;
+      text-transform: uppercase;
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// experience
+.experience {
+  .section__header-icon {
+    background-image: url("../images/icons/experience.svg");
+  }
+  .experience-list {
+    &__item {
+      margin-bottom: 10px;
+      span {
+        display: block;
+      }
+
+      span:first-child {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+// about
+.about {
+  .section__header-icon {
+    background-image: url("../images/icons/about.svg");
+  }
+}
