@@ -156,23 +156,6 @@
   }
 }
 
-// Self-education
-.self-education {
-  .section__header-icon {
-    background-image: url("../images/icons/self-education.svg");
-  }
-
-  .self-education-list__item {
-    margin-bottom: 10px;
-    span {
-      display: block;
-      text-transform: uppercase;
-      font-weight: 900;
-      margin-bottom: 10px;
-    }
-  }
-}
-
 // experience
 .experience {
   .section__header-icon {
@@ -183,6 +166,7 @@
       margin-bottom: 10px;
       span {
         display: block;
+        margin-bottom: 5px;
       }
 
       span:first-child {
